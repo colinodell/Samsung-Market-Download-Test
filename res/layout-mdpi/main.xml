@@ -8,7 +8,8 @@
 	android:id="@+id/congrats"  
     android:layout_width="fill_parent" 
     android:layout_height="wrap_content" android:text="Congratulations!" android:gravity="center_horizontal" android:textSize="32dp" android:textColor="#ffffff" android:layout_marginTop="20dp" android:layout_marginBottom="20dp"/>
-<ImageView android:id="@+id/bag" android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/market" android:layout_gravity="center_horizontal" android:layout_below="@id/congrats" android:layout_centerHorizontal="true"></ImageView>
-<TextView android:id="@+id/text" android:layout_height="wrap_content" android:text="You have successfully downloaded an application from the Market." android:gravity="center_horizontal" android:textColor="#eeeeee" android:layout_below="@id/bag" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="fill_parent" android:layout_marginTop="20dp"></TextView>
+<ImageView android:id="@+id/bag" android:layout_width="wrap_content" android:src="@drawable/market" android:layout_gravity="center_horizontal" android:layout_below="@id/congrats" android:layout_centerHorizontal="true" android:layout_height="wrap_content"></ImageView>
+<TextView android:id="@+id/text" android:layout_height="wrap_content" android:text="@string/success" android:gravity="center_horizontal" android:textColor="#eeeeee" android:layout_below="@id/bag" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="fill_parent" android:layout_marginTop="20dp"></TextView>
+<Button android:layout_height="wrap_content" android:id="@+id/close" android:text="Exit" android:layout_below="@id/text" android:layout_centerHorizontal="true" android:layout_width="100dp" android:layout_marginTop="10dp"></Button>
 <ImageView android:src="@drawable/samsung" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/logo" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"></ImageView>
 </RelativeLayout>
